@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    color: rgb(255, 255, 255);
+}
+
+
+.modo-claro{
+    background-image: url('../public/fondo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+.modo-oscuro{
+    background-image: url('../public/fondoOscuro.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+.modo-claro .menu {
+    background-color: rgba(151, 250, 233, 0.801);
+    width: 100%;
+}
+
+.modo-oscuro .menu {
+    background-color: rgba(21, 23, 53, 0.801);
+    width: 100%;
+}
+
+#registrar {
+    margin-left: 10px;
+}
+#registrar a {
+    text-decoration: none;
+    color: rgb(23, 87, 66);
+}
+
+.dropdown-menu button {
+    margin-left: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.modo-claro #myDropdown {
+    background-color: rgb(171, 216, 216);
+}
+
+.modo-oscuro #myDropdown {
+    background-color: rgb(35, 53, 53);
+}
+
+#botonModoClaro {
+    text-align: center;
+    padding-right: 1.2rem;
+    padding-left: 0.7rem;
+}
+
+#presentacion {
+    text-align: center;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+    font-size: 78px;
+    text-align: center;
+}
+
+.texto_acompañante {
+    font-size: 30px;
+}
+
+
+.espaciosHaciaAbajo {
+    padding-top: 8rem;
+}
+.espaciosHaciaArriba {
+    padding-bottom: 10rem;
+}
+#separadorImg {
+    padding-right: 50px;
+}
+
+.modo-claro .detallesEvento {
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(123, 88, 168);
+}
+
+.modo-oscuro .detallesEvento {
+    text-shadow: 5px 2px 4px rgba(255, 255, 255, 0.5);
+    background-color: rgb(23, 15, 34);
+}
+
+.card {
+    border-radius: 50px;
+    padding: 4rem 4rem 0rem 4rem;
+}
+
+.card-img {
+    width: 140px !important;
+    background-color: rgb(255, 252, 210);
+    border-radius: 100% !important;
+    padding: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.card {
+    background-color: rgba(112, 108, 42, 0) !important;
+    border-color: rgba(255, 255, 255, 0) !important;
+    text-align: center;
+}
+
+
+.card-body {
+    color: rgb(255, 255, 255) !important;
+}
+
+.modo-claro .degradado p {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(123, 88, 168, 0.959) 88%);
+    font-size: 8vw;
+    color: rgba(240, 248, 255, 0);
+    margin-bottom: 0;
+}
+
+.modo-oscuro .degradado p {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(27, 20, 37, 0.959) 88%);
+    font-size: 8vw;
+    color: rgba(240, 248, 255, 0);
+    margin-bottom: 0;
+}
+
+
+.carousel-inner {
+    border-radius: 10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.modo-claro .footer {
+    padding: 2rem 5rem 1rem 2rem;
+    text-align: left!important;
+    background-color:rgb(96, 69, 131);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.modo-oscuro .footer {
+    padding: 2rem 5rem 1rem 2rem;
+    text-align: left!important;
+    background-color:rgb(27, 20, 37);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.modo-claro #menuVolver a{
+    text-align: left!important;
+    text-decoration: none;
+    color: rgb(191, 255, 241);
+    font-size: 2rem;
+}
+.modo-oscuro #menuVolver a{
+    text-align: left!important;
+    text-decoration: none;
+    color: rgb(248, 255, 210);
+    font-size: 2rem;
+}
+
+.container h5 {
+    font-size: 2rem!important;
+    padding-top: 1rem;
+
+}
+#gifDetalles {
+    border-radius: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    margin: auto;
+    width: 100%;
+}
+
+#detallesGenerales strong {
+    font-size: 2rem;
+}
